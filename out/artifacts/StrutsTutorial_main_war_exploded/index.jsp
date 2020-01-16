@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: aravind
@@ -8,9 +9,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <s:form name="Welcome" >
+    <s:textfield name="username" label="username" />
+    <s:textfield name="password" label="password" />
+    <s:submit />
+  </s:form>
   </body>
 </html>

@@ -13,7 +13,7 @@
       <facet type="Struts2" name="Struts 2">
         <configuration>
           <fileset id="s2fileset" name="Default File Set" removed="false">
-            <file>file://$MODULE_DIR$/../../src/main/java/struts.xml</file>
+            <file>file://$MODULE_DIR$/../../src/main/web/WEB-INF/classes/struts.xml</file>
             <file>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.struts/struts2-convention-plugin/2.3.15.1/1a9956236ee9d15c745d66f4b60ca2e05b14b8f8/struts2-convention-plugin-2.3.15.1.jar!/struts-plugin.xml</file>
             <file>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.struts/struts2-core/2.3.15.1/548b784ee018fa724251b3604342e0d72ede7690/struts2-core-2.3.15.1.jar!/struts-default.xml</file>
           </fileset>

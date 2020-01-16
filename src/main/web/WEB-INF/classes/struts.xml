@@ -7,7 +7,7 @@
 <struts>
     <package name="default" namespace="/" extends="struts-default">
         <action name="Welcome" class="WelcomePageAction">
-            <result name="SUCCESS">welcome.jsp</result>
+            <result name="SUCCESS">/welcome.jsp</result>
         </action>
     </package>
 </struts>

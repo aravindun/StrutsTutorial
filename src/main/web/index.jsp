@@ -9,12 +9,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
   </head>
   <body>
-  $END$
-  <form name="redirect" >
+  <s:form name="Welcome" >
     <s:textfield name="username" label="username" />
-  </form>
+    <s:textfield name="password" label="password" />
+    <s:submit />
+  </s:form>
   </body>
 </html>
