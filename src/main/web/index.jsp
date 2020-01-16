@@ -11,7 +11,7 @@
   <head>
   </head>
   <body>
-  <s:form name="Welcome" >
+  <s:form action="Welcome" >
     <s:textfield name="username" label="username" />
     <s:textfield name="password" label="password" />
     <s:submit />

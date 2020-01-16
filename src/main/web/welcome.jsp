@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: aravind
@@ -10,7 +11,10 @@
 <head>
     <title>Welcome Page</title>
 </head>
-<h2>Welcome!!!</h2>
+<h2>Welcome
+<s:property value="username" />
+    !!!
+</h2>
 <body>
 
 </body>
